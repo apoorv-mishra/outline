@@ -5,6 +5,7 @@ describe("Diagrams", () => {
 
   test("to be enabled on viewer link", () => {
     expect(
+      // "https://app.diagrams.net/?target=blank&nav=1#ABCDefgh_A12345-6789".match(
       "https://viewer.diagrams.net/?target=blank&nav=1#ABCDefgh_A12345-6789".match(
         match
       )
